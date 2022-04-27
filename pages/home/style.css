@@ -1,0 +1,61 @@
+@import url('../../assets/css/settings.css');
+
+.header__items {
+    max-width: 1148px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.auth__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth__items-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.auth__items-item-logo-href {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.auth__items-item-logo-text {
+    font-size: 24px;
+    font-family: 'Roboto Bold';
+    text-decoration: none;
+}
+
+.auth__items-item-list ul {
+    display: flex;
+    gap: 14px;
+}
+
+.auth__items-item-list li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.auth__items-buttons {
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+}
+
+.buttons-apply a {
+    padding: 10px 15px;
+    background-color: #256EEB;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+}
+
+.buttons-apply a:hover {
+    background-color: rgb(24, 86, 193);
+}

@@ -1,0 +1,23 @@
+@import url('normalize.css');
+@import url('../fonts/Roboto-Regular.ttf');
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/Roboto-Bold.ttf'), url('fonts/EntezareZohoor2.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto-Regular.ttf'), url('fonts/EntezareZohoor2.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Regular';
+    text-decoration: none;
+    color: #000;
+}
