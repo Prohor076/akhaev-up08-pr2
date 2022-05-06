@@ -1,0 +1,131 @@
+@import url('../../assets/css/settings.css');
+
+.header__items {
+    max-width: 1148px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.search {
+    max-width: 1148px;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.auth__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth__items-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.auth__items-item-logo-href {
+    text-decoration: none;
+    color: #0A143A;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.auth__items-item-logo-text {
+    font-size: 24px;
+    font-family: 'Roboto Bold';
+    text-decoration: none;
+}
+
+.auth__items-item-list ul {
+    display: flex;
+    gap: 14px;
+}
+
+.auth__items-item-list li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.auth__items-buttons {
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+}
+
+.buttons-apply a {
+    padding: 10px 15px;
+    background-color: #256EEB;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+}
+
+.buttons-apply a:hover {
+    background-color: rgb(24, 86, 193);
+}
+
+.search__form {
+    background-color: #256EEB;
+    border-radius: 5px;
+}
+
+.search__form form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__form {
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__form-field {
+    width: 100%;
+    height: 100%;
+}
+
+.search__form-field input {
+    padding: 14px 21px;
+    width: 100%;
+    height: 50px;
+    left: 3px;
+    top: 3px;
+    border-radius: 5px;
+    border: 3px solid #256EEB;
+    font-size: 14px;
+}
+
+.search__form-field input::placeholder {
+    color: #0A143A;
+    opacity: .4;
+}
+
+.search__form-button {
+    background-color: #256EEB;
+    z-index: 1;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.search__form-button button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 1;
+}
